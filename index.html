@@ -4,30 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miguel Molina - CV</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Incorporar Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Miguel Molina</h1>
-        <p>Ingeniero Técnico en Informática de Gestión</p>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Miguel Molina</a>
+        </div>
+    </nav>
 
-    <section id="experiencia">
-        <h2>Última Experiencia Laboral</h2>
-        <h3>Fullstack Developer - Pharma (01/2020 – 04/2020)</h3>
-        <p>Migración de módulos de LabCore a Angular y Net Core, diseño de microservicios backend y colaboración en el diseño de componentes Angular.</p>
-    </section>
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Hola, soy Miguel Molina</h1>
+            <p class="lead">Ingeniero Técnico en Informática de Gestión con experiencia en desarrollo Fullstack.</p>
+        </div>
 
-    <section id="habilidades">
-        <h2>Habilidades Principales</h2>
-        <ul>
-            <li>Angular 4</li>
-            <li>MongoDB</li>
-            <li>C#</li>
-            <li>IdentityServer</li>
-            <li>Karma</li>
-            <!-- Agregar más habilidades según sea necesario -->
-        </ul>
-    </section>
+        <div class="card mb-4">
+            <div class="card-header">Última Experiencia Laboral</div>
+            <div class="card-body">
+                <h5 class="card-title">Fullstack Developer - Pharma (01/2020 – 04/2020)</h5>
+                <p class="card-text">Migración de módulos de LabCore a Angular y Net Core, diseño de microservicios backend y colaboración en el diseño de componentes Angular.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Habilidades Principales</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Angular 4</li>
+                <li class="list-group-item">MongoDB</li>
+                <li class="list-group-item">C#</li>
+                <li class="list-group-item">IdentityServer</li>
+                <li class="list-group-item">Karma</li>
+                <!-- Agregar más habilidades según sea necesario -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Incorporar Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
